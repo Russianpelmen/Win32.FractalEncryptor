@@ -21,7 +21,7 @@ const char CLASS_NAME[] = "CLASS_NAME";
 #include "../Resource/resource.h"
 
 namespace fs = std::filesystem;
-using recursive_directory_iterator = fs::recursive_directory_iterator;
+using  fs::recursive_directory_iterator;
 
 LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
